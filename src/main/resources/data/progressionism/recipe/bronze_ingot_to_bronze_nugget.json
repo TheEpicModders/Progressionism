@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "progressionism:bronze_ingot"
+  ],
+  "result": {
+    "count": 9,
+    "id": "progressionism:bronze_nugget"
+  }
+}

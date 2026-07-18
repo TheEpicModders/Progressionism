@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "progressionism",
+  "version": "${version}",
+  "name": "Progressionism",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All Rights Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.GeorgeGPT.progressionism.client.ProgressionismClient"
+    ],
+    "main": [
+      "net.GeorgeGPT.progressionism.Progressionism"
+    ]
+  },
+  "mixins": [
+    "progressionism.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

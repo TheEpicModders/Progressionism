@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    "progressionism:tin_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "progressionism:tin_ingot"
+  }
+}

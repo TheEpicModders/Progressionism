@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "progressionism:block/bronze_block"
+  }
+}

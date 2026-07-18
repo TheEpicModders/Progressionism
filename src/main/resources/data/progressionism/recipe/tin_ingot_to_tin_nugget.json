@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "progressionism:tin_ingot"
+  ],
+  "result": {
+    "count": 9,
+    "id": "progressionism:tin_nugget"
+  }
+}

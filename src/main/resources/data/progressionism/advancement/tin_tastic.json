@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:story/upgrade_tools",
+  "display": {
+    "icon": {
+      "id": "progressionism:tin_ingot"
+    },
+    "title": {
+      "text": "Tin-tastic!"
+    },
+    "description": {
+      "text": "Smelt a tin ingot."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_tin": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "progressionism:tin_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_tin"
+    ]
+  ]
+}
